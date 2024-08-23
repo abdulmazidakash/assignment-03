@@ -25,6 +25,7 @@
                     colors: {
                         primary: 'rgb(171, 239, 95)',
                         secondary: 'rgba(171, 239, 95, 0.5)',
+                        bgAlpha: 'rgba(171, 239, 95, 0.2)',
                         bgImage: 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)',
                     },
                     fontFamily: {
@@ -118,7 +119,48 @@
 
 	<!-- section: main container start  -->
 	<main>
-
+		<!-- section: lets connect container start  -->
+		<section class="bg-connectBg bg-no-repeat">
+			<div class="w-8/12 mt-24 mb-20 mx-auto">
+				<div class="py-12 text-center flex flex-col items-center justify-center">
+					<div class="lg:w-48 mx-auto flex bg-bgAlpha rounded-full items-center px-3 py-1">
+						<h3 class="font-bold lg:ml-5 ml-28"><i class="fa-solid fa-arrow-right "></i>Let's Connect</h3>
+						<a href="#" class="flex items-center gap-2 font-bold border border-[rgb(233, 233, 233)] p-2 text-white"></a>
+					</div>
+					<h3 class="text-3xl font-extrabold mb-3">Let s Discuss Next Project</h3>
+					<p class="opacity-80 w-1/2">The barn house captivates with its blend of rustic charm and modern sophistication, 
+						featuring weathered wood, sleek metal accents</p>
+				</div>
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
+					<div class="lg:col-span-2">
+						<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+							<div>
+								<input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-lg w-full" type="text" name="" id="" placeholder="Your Name">
+							</div>
+							<div>
+								<input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-lg w-full" type="text" name="" id="" placeholder="Your Email">
+							</div>
+							<div>
+								<input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-lg w-full" type="text" name="" id="" placeholder="Your Phone Number">
+							</div>
+							<div>
+								<input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-lg w-full" type="text" name="" id="" placeholder="Subject">
+							</div>
+							<div class="lg:col-span-2">
+								<label class="text-lg font-semibold mb-3" for="">Message</label>
+								<br>
+								<textarea rows="9" class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-lg w-full" name="" id="" placeholder="Your Message"></textarea>
+							</div>
+							<div class="flex bg-primary rounded-full items-center lg:px-3 px-16 py-2 gap-1 col-span-2">
+								<h3 class="font-extrabold lg:text-xl text-2xl">Book Consult</h3>
+								<a href="#" class="flex items-center gap-2 font-bold border border-[rgb(233, 233, 233)] rounded-full p-2 bg-black text-white"><i class="fa-solid fa-arrow-right -rotate-45 "></i></a>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
 	<!-- section: footer container start  -->
@@ -136,7 +178,7 @@
 		  <a class="link link-hover">Contact Us</a>
 		</nav>
 		<div class="flex bg-primary rounded-full items-center lg:px-3 px-16 py-2 gap-1 ">
-			<h3 class="font-extrabold lg:text-xl text-2xl">Book Consultant</h3>
+			<h3 class="font-extrabold lg:text-xl text-2xl">Book Consult</h3>
 			<a href="#" class="flex items-center gap-2 font-bold border border-[rgb(233, 233, 233)] rounded-full p-2 bg-black text-white"><i class="fa-solid fa-arrow-right -rotate-45 "></i></a>
 		</div>
 	  </footer>
